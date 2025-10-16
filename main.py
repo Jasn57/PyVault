@@ -1,8 +1,6 @@
 import json
 from cryptography.fernet import Fernet
 
-key = Fernet.generate_key()
-
 user_choice = input("1. Login (type 1)  2. Create Account (type 2): ")
 
 if user_choice == "1":  
